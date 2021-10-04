@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+} 
+body{
+    background-image: url('bgi2.jpg');
+    background-size: cover; 
+    opacity: 2.0;
+}
+.container{
+    width: 100%;
+}
+.header{
+    height: 80px;
+    width: auto; 
+}
+.header .menu{
+    float: right;
+}
+.brand-name{
+    font-size: 35px;
+    margin-top: 15px;
+    margin-left: 50px;
+    padding: 10px;
+} 
+.menu{
+    margin-top: -90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 3em;
+    margin-right: 50px;
+}
+.menu .item{
+    margin-right: 20px;
+}
+.item{
+    padding: 5px;
+    text-align: center;
+    width: 140px;
+}
+.content{
+    margin-top: 140px;
+    width: 100%;
+    height: 150px;
+    align-items: center;
+} 
+.greet{
+    margin-left: 550px; 
+    color: rgb(226, 128, 128);
+}
+.greet p{
+    padding: 10px;
+    margin-top: 5px;
+}
+.brand-name a:hover{
+    font-size: 36px;
+    color: white;
+}
+.border{
+    border-bottom: 3px white solid;
+} 
+.text{
+    color: rgb(226, 128, 128);
+    text-align: center;
+    margin-top: -15px;
+    padding: 15px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.prof-pic{
+    margin-top: -100px;
+    text-align: center;
+}
+.p-text{
+    padding: 10px;
+    font-weight: bold;
+}
+.work-title{
+    margin-top: 10px;
+    color: rgb(226, 128, 128);
+    font-size: 29px;
+    text-align: center;
+}
+.box
+{
+    padding: 15px;
+} 
+.works{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    padding: 5px;
+    margin-left: 80px;
+} 
+.items{
+    width: 80%;
+    height: 250px;
+    margin: 5px;
+    border: 2px white solid;
+    padding: 2px;
+    background-color: rgb(226, 128, 128);
+    color: white;
+    font-size: 26px;
+}
+.item-image{
+    padding: 2px;
+}
+.p-work{
+    margin-top: 10px;
+    text-align: center;
+} 
+.items:hover{
+    background-color: rgb(216, 177, 177);
+    color: rgb(29, 26, 26);
+    font-size: 30px;
+} 
+.box-contact{
+    padding: 20px; 
+    color: rgb(226, 128, 128);
+}
+.contact-title{
+    text-align: center;
+    font-size: 20px;
+}
+.platforms{
+    text-align: center;
+    padding: 25px;
+    font-size: 30px;
+}
+.plat-item{
+    margin: 20px;
+    color: rgb(226, 128, 128);
+}
+.call{
+    text-align: center;
+    padding: 25px;
+    margin-top: 20px;
+}
+.phone-no{
+    letter-spacing: 2px;
+} 
+.plat-item:hover{
+    color: white;
+    font-size: 38px;
+}
+.message{
+    width: 600px;
+    padding: 10px;
+    margin-left: 370px;
+    border: 2px rgb(226, 128, 128) solid;
+    border-radius: 4px;
+    background-color: rgb(226, 128, 128);
+    color: white;
+}
+.send-message{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 20px;
+    font-size: 26px;
+}
+#con-p{
+    margin-right:40px;
+}
+#message-icon{
+    margin-left: 60px;
+}
+.message:hover{
+    background-color: rgb(216, 177, 177);
+    color: rgb(29, 26, 26);
+}
+ul li a:hover{
+    color: aliceblue;
+    font-size: 20px;
+}
+ul li{
+    list-style: none;
+}
+a{
+    color: rgb(226, 128, 128);
+    text-decoration: none;
+}
